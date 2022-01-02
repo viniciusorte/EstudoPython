@@ -1,0 +1,21 @@
+      AULA 4
+print('olá mundo') | olá mundo
+print(7+5) | 12 
+print('olá' , 7+5) | olá 12
+
+      Variáveis/Objeto
+nome = vinicius
+idade = 20
+peso = 50,0
+
+      (Input serve pro usuário preencher)
+nome = input('qual seu nome')
+idade = input('qual seu idade')
+peso = input('Qual seu peso')
+print(nome , idade , peso) 
+
+| Qual seu nome? (Vini)
+|Qual sua Idade (20)
+|Qual seu peso (50,0)
+|||Vini 20 50,0
+

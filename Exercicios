@@ -1,0 +1,54 @@
+Desafio 01:  
+
+Crie um Script que leia o nome de uma pessoa e mostra uma mensagem de boas vindas de acordo com o valor digitado 
+
+Resposta: 
+
+nome = input('Qual seu nome?') 
+
+print ('Olá' , (nome) , 'seja bem vindo') 
+
+|Qual seu nome? [colocar valor] 
+Olá [colocar valor] seja bem vindo 
+
+
+
+Desafio 02: 
+
+Crie um script que leia o dia, mês e ano do nascimento de uma pessoa e mostre uma mensagem com a data formatada. 
+
+Resposta: 
+
+dia=input('Que dia que nasceu') 
+
+mês=input('Que mês que nasceu') 
+
+ano=input('Que ano que nasceu') 
+
+print('Você nasceu no dia', (dia) , 'de' , (mês) , 'de' , (ano)) 
+
+|Que dia nasceu? [05]    [Minha resposta] 
+ Que mês nasceu? [JUL] 
+ Que ano nasceu? [2001] 
+
+Vocês nasceu no dia 05 de JUL de 2001 
+
+ 
+
+Desafio 03:    AULA 04 Porém RESOLUÇÃO NA AULA 05 
+
+Crie um script que leia dois números e tente mostrar a soma entre eles.  
+
+Resposta: 
+
+numero1 = int(input('Insira o 1 número')) 
+
+numero2 = int(input('Insira o 2 número')) 
+
+print('A soma é', numero1 + numero2) 
+
+Insira o 1 número [5] 
+
+Insira o 2 número [5] 
+
+A soma é 10 
