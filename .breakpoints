@@ -1,0 +1,28 @@
+{
+  "files": {
+    ".breakpoints": [
+      {
+        "id": "762359b4-b7fa-45c0-944b-aaffc3d3ab7a",
+        "line": 6,
+        "version": 1,
+        "index": 107
+      }
+    ],
+    "Exercicio/Exercicios1a10/Ex004": [
+      {
+        "id": "8167b8af-a09c-414b-bf02-7112353cf2c6",
+        "line": 8,
+        "version": 232,
+        "index": 264
+      }
+    ],
+    "Exercicios1a10/Ex001": [
+      {
+        "id": "18677c18-f302-4d38-a6c3-109d8cbe132b",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ]
+  }
+}

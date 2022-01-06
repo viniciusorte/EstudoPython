@@ -19,3 +19,36 @@ print(nome , idade , peso)
 |Qual seu peso (50,0)
 |||Vini 20 50,0
 
+int
+numero inteiros EX: 1 -1 7 9845
+
+float
+Números reais ou flutuantes EX: 1.1 , 7.9 , -15.895
+
+boll
+Valores lógicos ou boleanos EX: True e False (1 letra maiúscula)
+
+str
+Valores caractere ou string EX: 'olá' '7.0' 
+
+====================================================
+Aula 007
+nome= input('Qual seu nome?')
+print('Você é o {:20} eim?'.format(nome))
+                {<  pra deixar 20 espaços na esquerda do nome
+                {>                           direita
+                {^  pra Centralizar o nome 10 espaços de cada lado
+                {=^}no lugar do Espaços poe " = "
+
+n1=int(input('Digite um número'))
+n2=int(input('Digite outro'))
+s=n1+n2
+st=n1-n2
+m=n1*n2
+d=n1/n2
+print('A soma é {}, a subtração é {}'.format(s , st))
+print('O produto é {}, a divisão é {}'.format(m, d))
+#Pra diminuir a qntd de decimais  {:.3f} pra ter apenas 3 decimais
+print('A soma é {}, a subtração é{}'.format(s , st), end = '')   Pra não quebrar Linha
+                                                   #Para não quebrar a linha
+print('A soma é {}, \n a subtração é{}'.format(s , st), end = '') \n pra quebrar a linha

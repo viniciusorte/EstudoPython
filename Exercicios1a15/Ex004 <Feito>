@@ -1,0 +1,15 @@
+  EXERCICIO 004           Aula 6
+
+#Faça um prgrama que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas informações possíveis sobre ela
+
+#Jeito que eu fiz
+n=input('Digite algo')
+print('{} , {} ,{}'.format(n.isupper(), n.islower(), n.isalpha()))
+#Outro jeito q fiz
+n=input('Digite algo')
+print('O tipo primitivo desse valor é', type(n))
+print('É maiúsculo? ' , n.isupper())
+print('Apenas espaços?' , n.isspace())
+print('Está no alfabeto?' , n.isalpha())
+print('É numérico?' , n.isnumeric())
+print('É alfanumérico?' , n.isalnum())

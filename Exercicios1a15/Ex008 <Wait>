@@ -1,0 +1,9 @@
+EXERCICIO 008   AULA 007
+#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+
+<RESULTADO>
+m=int(input('Quantos metros do ponto A ao B?'))
+ab=m
+print('Do ponto A ao B tem exatos',(ab),'Metros', end = '')
+print(',', ab*100 , 'Centímetros', end = '')
+print(' e',ab*1000,'Milímetros')

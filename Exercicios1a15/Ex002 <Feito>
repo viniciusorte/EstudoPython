@@ -1,0 +1,5 @@
+nome = input('Qual seu nome?')                aula 4
+
+print ('Olá' , (nome) , 'seja bem vindo')
+ou
+print ('Olá {}!'. format(nome))
