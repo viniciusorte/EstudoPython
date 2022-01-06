@@ -1,14 +1,14 @@
 #Preço antigo   % * peso/100
-gar=float(5.50)
-dan=float(4.90)
-pao=float(0.30)
-bif=float(50.0)
+gar=(5.50)
+dan=(4.90)
+pao=(0.30)
+bif=(50.0)
 
 #Valor dos 5% referente ao produto
-dg=float(5*gar/100)
-dd=float(5*dan/100)
-dp=float(5*pao/100)
-db=float(5*bif/100)
+dg=(5*gar/100)
+dd=(5*dan/100)
+dp=(5*pao/100)
+db=(5*bif/100)
 
 #Preço já com desconto
 pg=gar-dg
