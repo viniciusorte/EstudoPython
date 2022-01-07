@@ -1,0 +1,7 @@
+EXERCICIO 014   AULA 007
+#Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenheit.
+
+<RESULTADO>
+graus=float(input('Informa a temperatura em C°:'))
+far=(graus*1.8)+32
+print(far)
