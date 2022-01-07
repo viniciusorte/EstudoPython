@@ -23,6 +23,14 @@
         "version": 1,
         "index": 0
       }
+    ],
+    "main.py": [
+      {
+        "id": "ab753fee-553b-4626-9846-c46c33484787",
+        "line": 9,
+        "version": 13097,
+        "index": 160
+      }
     ]
   }
 }

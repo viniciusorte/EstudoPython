@@ -1,0 +1,24 @@
+EXERCICIO 013   AULA 007
+#Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento
+
+<RESULTADO>
+#Preço antigo   % * peso/100
+salario = float(input('Qual salário do funcionário'))
+#Valor dos 15% referente ao produto
+novo = salario+(15*salario/100)
+                            
+print('Seu salário de R${:.2f}, aumentou para R${:.2f}  a mais'.format(salario,novo))
+
+
+
+salario=float(input('Qual salário do funcionário? R$'))
+
+#Valor dos 5% referente ao produto
+desconto=(15*salario/100)
+
+#Preço já com desconto
+sd=salario+desconto
+                                      
+print('Seu salário de R${}, aumentou para R${} pois aplicamos um aumento de 15% o que equivale a R${} a mais'.format(salario,sd,desconto))
+
+#Ou

@@ -1,0 +1,23 @@
+EXERCICIO 006   Aula 0007
+#Crie um algoritmo que leia um número e mostre o seu dobro, triplo e Raiz quadrada
+
+<RESULTADO>
+n1=int(input('Digite um número'))
+print('O dobro desse valor é:', n1*2)
+print('O triplo desse valor é:' , n1*3)
+print('A raiz quadrada do valor é:', n1**(1/2))
+
+#Ou
+n=int(input('Digite um número'))
+d=n*2
+t=n*3
+r=n**(1/2)
+print('Analisando o número {}, seu dobro é {}, seu triplo é {}, sua raiz quadrada é {}'.format(n,d,t,r))
+
+#Ou       #Com 1 variável
+n=int(input('Digite um número'))
+print('Analisando o número {}, seu dobro é {}, seu triplo é {}, sua raiz quadrada é {}'.format(n,n*2,n*3,n**(1/2)))
+
+#Ou       #Com quebra linha
+n=int(input('Digite um número'))
+print('Analisando o número {}\n, seu dobro é {}\n, seu triplo é {}\n, sua raiz quadrada é {}'.format(n,n*2,n*3,n**(1/2)))

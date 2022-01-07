@@ -7,3 +7,10 @@ ab=m
 print('Do ponto A ao B tem exatos',(ab),'Metros', end = '')
 print(',', ab*100 , 'Centímetros', end = '')
 print(' e',ab*1000,'Milímetros')
+
+#Ou
+medida=float(input('Uma distância em metros'))
+cm=medida*100
+mm=medida*1000
+km=medida/100             #AddKm
+print('A medida de {}m corresponde a{}km, {}cm e {}mm'.format(medida,km,cm,mm))

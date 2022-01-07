@@ -7,3 +7,10 @@ a=float(input('Qual a altura da sua parede?'))     #Altura
 ar=l*a                                             #Área
 t=ar/2
 print('Sua parede tem uma área de {}m² E você vai gastar {} litros de tinta para pinta-la'.format(ar , t))
+
+#Ou
+l=float(input('Qual a largura da sua parede?'))    #Largura
+a=float(input('Qual a altura da sua parede?'))     #Altura
+ar=l*a                                             #Área
+t=ar/2
+print('Sua parede tem a dimensão de {:.2f}X{:.2f} e uma área de {}m² \nE você vai gastar {}l de tinta para pinta-la'.format(l,a,ar , t))

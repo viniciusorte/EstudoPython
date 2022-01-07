@@ -1,0 +1,37 @@
+EXERCICIO 009   AULA 007
+#Faça um programa que leia um número inteiro e mostre na tela sua tabuada
+
+<RESPOSTA>
+n=int(input('Digite um número para descobrir a tabuada dele'))
+r=n*0 , n*1 , n*2 , n*3 , n*4 , n*5 , n*6 , n*7 , n*8 , n*9 , n*10
+print(r)
+
+#Ou   #O mais correto
+n=int(input('Digite um número para descobrir a tabuada dele'))
+print('{} X {} = {}'.format(n,0,n*0))                         
+print('{} X {} = {}'.format(n,1,n*1))
+print('{} X {} = {}'.format(n,2,n*2))
+print('{} X {} = {}'.format(n,3,n*3))
+print('{} X {} = {}'.format(n,4,n*4))
+print('{} X {} = {}'.format(n,5,n*5))
+print('{} X {} = {}'.format(n,6,n*6))
+print('{} X {} = {}'.format(n,7,n*7))
+print('{} X {} = {}'.format(n,8,n*8))
+print('{} X {} = {}'.format(n,9,n*9))
+print('{} X {} = {}'.format(n,10,n*10)) 
+
+#Ou               #Para organizar 
+n=int(input('Digite um número para descobrir a tabuada dele'))
+print('-'*12)
+print('{} X {:2} = {}'.format(n,0,n*0))
+print('{} X {:2} = {}'.format(n,1,n*1))
+print('{} X {:2} = {}'.format(n,2,n*2))
+print('{} X {:2} = {}'.format(n,3,n*3))
+print('{} X {:2} = {}'.format(n,4,n*4))
+print('{} X {:2} = {}'.format(n,5,n*5))
+print('{} X {:2} = {}'.format(n,6,n*6))
+print('{} X {:2} = {}'.format(n,7,n*7))
+print('{} X {:2} = {}'.format(n,8,n*8))
+print('{} X {:2} = {}'.format(n,9,n*9))
+print('{} X {:2} = {}'.format(n,10,n*10))
+print('-'*12)

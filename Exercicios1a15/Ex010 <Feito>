@@ -1,0 +1,11 @@
+EXERCICIO 010   AULA 007
+#Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos Dólares ela pode comprar
+Considere US$1,00 = R$3,27
+
+<RESULTADO>
+# 1,00 Dolar = 3,27 Reais
+d=float(input("Quantos reais você tem na carteira? R$"))
+dl=d/3.27
+print('Com {} você pode comprar US${:.2f} Dólares'.format(d,dl))
+
+
