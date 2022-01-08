@@ -52,3 +52,15 @@ print('O produto é {}, a divisão é {}'.format(m, d))
 print('A soma é {}, a subtração é{}'.format(s , st), end = '')   Pra não quebrar Linha
                                                    #Para não quebrar a linha
 print('A soma é {}, \n a subtração é{}'.format(s , st), end = '') \n pra quebrar a linha
+
+
+AULA 008    # Bibliotecas
+import math        # Mais formas de conta
+num=int(input('Digite um número'))
+raiz= math.sqrt(num)                                                                      # Para arredondar pra cima
+print('A raiz de {} é: {}'.format(num,raiz))     ou print('A raiz de {} é: {}'.format(num,math.ceil(raiz)))
+
+import random      # Gera N° Random
+import random
+num=random.random()     ou   num=random.randint(1,10)    #Gerar N° Random de 1 a 10
+print(num)

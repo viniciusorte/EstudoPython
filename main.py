@@ -1,5 +1,8 @@
-# Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
-km=float(input('Quanto Km rodados?'))
-dia=int(input('Quantos dias alugados?'))
-preço=(dia*60)+(km*0.15)
-print('Voce tem que pagar {:.2f} pois você alugou o carro por {} dias e andou {}km com ele'.format(preço,dia,km))
+#Leia o comprimento do cateto oposto e do cateto adjacentede um triângulo retângulo, calcule e mostre o comprimento da hipotenusa
+
+import math
+a=float(input('Quanto mede o cateto oposto?'))
+b=float(input('Quando mede o cateto adjacente?'))
+h=(a**1/2)+(b**1/2)
+print('A hipotenusa mede {:.2f}'.format(h))
+

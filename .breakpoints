@@ -24,12 +24,28 @@
         "index": 0
       }
     ],
+    "Exercícios 16 ao 27/Ex018": [
+      {
+        "id": "fdafc676-b31c-47dd-bc09-66d5d4cdb8d8",
+        "line": 4,
+        "version": 70,
+        "index": 130
+      }
+    ],
+    "Exercícios 16 ao 27/Ex021": [
+      {
+        "id": "11895fc0-ad01-4dc8-b465-5458fa1f1bc7",
+        "line": 4,
+        "version": 31,
+        "index": 88
+      }
+    ],
     "main.py": [
       {
         "id": "ab753fee-553b-4626-9846-c46c33484787",
-        "line": 9,
-        "version": 13149,
-        "index": 201
+        "line": 1,
+        "version": 14441,
+        "index": 0
       }
     ]
   }
