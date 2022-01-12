@@ -1,0 +1,15 @@
+EXERCICIO 018   AULA 008
+#Leia um ângulo qualquer e mostre na tela o valor de Seno,Cosseno e Tangente desse ângulo
+              
+<RESULTADO>
+cto = float(input('Quanto mede o cateto oposto?'))
+cta = float(input('Quanto mede o cateto adjacente?'))
+
+res = (cto**2) + (cta**2)
+hip = res**(1 / 2)
+sen = cto / hip
+cos = cta / hip
+tan = sen / cos
+
+print('A Hipotenusa mede: ', hip)
+print('O Seno é: {:.2f} \n O Cosseno é: {:.2f}\n A Tangente é: {:.2f}'.format(sen, cos, tan))

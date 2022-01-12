@@ -1,0 +1,12 @@
+EXERCICIO 019   AULA 008
+#Faça um programa que sorteie um dos 4 alunos para apagar o quadro, faça um programa que leia o nome deles e escreva o nome do escolhido
+                        
+<RESULTADO>
+import random
+aluno1=('João')
+aluno2=('Vinicius')
+aluno3=('Calango')
+aluno4=('Kami')
+lista=(aluno1,aluno2,aluno3,aluno4)
+sorteio=random.choice(lista)
+print('O sorteado para apagar o quadro foi:' , sorteio)

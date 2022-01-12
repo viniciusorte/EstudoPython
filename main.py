@@ -1,8 +1,9 @@
-#Leia o comprimento do cateto oposto e do cateto adjacentede um triângulo retângulo, calcule e mostre o comprimento da hipotenusa
+#Leia um ângulo qualquer e mostre na tela o valor de Seno,Cosseno e Tangente desse ângulo
 
 import math
 a=float(input('Quanto mede o cateto oposto?'))
 b=float(input('Quando mede o cateto adjacente?'))
-h=(a**1/2)+(b**1/2)
+r=(a**2)+(b**2)
+h=r**(1/2)
 print('A hipotenusa mede {:.2f}'.format(h))
 
