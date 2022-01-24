@@ -1,0 +1,25 @@
+EXERCICIO 017   AULA 008
+#Leia o comprimento do cateto oposto e do cateto adjacentede um triângulo retângulo, calcule e mostre o comprimento da hipotenusa
+
+<RESULTADO>
+#Leia o comprimento do cateto oposto e do cateto adjacentede um triângulo retângulo, calcule e mostre o comprimento da hipotenusa
+
+co=float(input('Quanto mede o cateto oposto?'))
+ca=float(input('Quando mede o cateto adjacente?'))
+h=(co**2 + ca ** 2)**(1/2)
+print('A hipotenusa mede {:.2f}'.format(h))
+
+Ou            #Com módulos
+
+import math
+co=float(input('Quanto mede o cateto oposto?'))
+ca=float(input('Quando mede o cateto adjacente?'))
+h=math.hypot(co,ca)
+print('A hipotenusa mede: {:.2f}'.format(h))        
+                                            OU                     Com módulo específico
+                                            from math import hypot
+                                            co=float(input('Quanto mede o cateto oposto?'))
+                                            ca=float(input('Quando mede o cateto adjacente?'))
+                                            h=hypot(co,ca)
+                                            print('A hipotenusa mede: {:.2f}'.format(h))
+

@@ -64,3 +64,14 @@ import random      # Gera N° Random
 import random
 num=random.random()     ou   num=random.randint(1,10)    #Gerar N° Random de 1 a 10
 print(num)
+
+IMPORTAÇÃO ESPECÍFICA
+QUANDO IMPORTAR MÓDULO ESPECÍFICO PODE TIRAR O (RANDOM.) E DEIXAR SÓ O CHOICE
+from random import choice
+aluno1=str(input('Nome do 1°aluno '))
+aluno2=str(input('Nome do 2° aluno '))
+aluno3=str(input('Nome do 3° aluno '))
+aluno4=str(input('Nome do 4° aluno '))
+lista= [aluno1,aluno2,aluno3,aluno4]
+sorteio=choice(lista)
+print('O sorteado para apagar o quadro foi: {}'.format(sorteio))

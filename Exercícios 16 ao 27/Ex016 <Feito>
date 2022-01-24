@@ -8,3 +8,15 @@ import math
 num = float(input('Digite um número:'))
 inteiro = math.floor(num)
 print("O número {} tem a parte inteira {}".format(num,inteiro))
+
+ou  
+
+import math
+num=float(input('Ditie um número'))
+print('O valor inteiro de {} é {}'.format(num,math.trunc(num)))
+
+ou
+
+from math import trunc
+num=float(input('Ditie um número'))
+print('O valor inteiro de {} é {}'.format(num,trunc(num)))
