@@ -1,4 +1,8 @@
-EXERCICIO 016   AULA 008
-#
+EXERCICIO 027   AULA 009
+#Ler o nome completo de uma pessoa e logo após mostrar o primeiro e ultimo nome dela
+EX:
+Ana Maria de Souza
+primeiro = Ana
+Ultimo = Souza
 
 <RESULTADO>

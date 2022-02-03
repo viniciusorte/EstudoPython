@@ -1,4 +1,7 @@
-EXERCICIO 016   AULA 008
-#
-
+EXERCICIO 022   AULA 009
+#Crie um programa que leia o nome da pessoa e mostre:
+.O nome com todas letras Maiúsculas 
+.'  '    '   '      '    Minúsculas
+.Quantas letras ao todos (Sem espaços)
+.Quantas letras tem o primeiro nome       #Usar .split
 <RESULTADO>
