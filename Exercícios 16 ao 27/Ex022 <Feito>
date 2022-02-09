@@ -1,0 +1,16 @@
+EXERCICIO 022   AULA 009
+#Crie um programa que leia o nome da pessoa e mostre:
+.O nome com todas letras Maiúsculas 
+.'  '    '   '      '    Minúsculas
+.Quantas letras ao todos (Sem espaços)
+.Quantas letras tem o primeiro nome       #Usar .split
+<RESULTADO>
+
+nome = str(input('Digite um nome: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculo {}'.format(nome.upper()))
+print('Seu nome em minúsculo {}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+###print('Seu primeiro novo tem {} letras'.format(nome.find(' ')))              OU 
+separa=nome.split()
+print('Seu primeiro nome é {} e tem {} letras'.format(separa[0],len(separa[0])))
